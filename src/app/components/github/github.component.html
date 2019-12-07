@@ -55,23 +55,29 @@
         <div class="col-md-12">
           <div *ngFor="let repo of repos">
             <div class="row">
-              <div class="col-md-9">
-                <h4>{{ repo.name }}</h4>
-                <p>{{ repo.description }}</p>
-                <a
-                  href="{{ repo.html_url }}"
-                  target="_blank"
-                  class="btn btn-primary"
-                  >View On Github</a
-                >
-              </div>
-              <div class="col-md-3">
-                <span class="badge badge-primary mr-1">
-                  {{ repo.watchers }} Watchers</span
-                >
-                <span class="badge badge-secondary mr-1"
-                  >{{ repo.forks }} Forks</span
-                >
+              <div class="card m-2 shadow p-3 rounded" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">Panel title</h5>
+                  <p class="card-text"></p>
+                  <div class="col-md-9">
+                    <h4>{{ repo.name }}</h4>
+                    <p>{{ repo.description }}</p>
+                    <a
+                      href="{{ repo.html_url }}"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >View On Github</a
+                    >
+                  </div>
+                  <div class="col-md-3">
+                    <span class="badge badge-primary mr-1">
+                      {{ repo.watchers }} Watchers</span
+                    >
+                    <span class="badge badge-secondary mr-1"
+                      >{{ repo.forks }} Forks</span
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
