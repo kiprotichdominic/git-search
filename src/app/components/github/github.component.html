@@ -56,12 +56,14 @@
           <div *ngFor="let repo of repos">
             <div class="row">
               <div class="col-md-9">
-                <h4>
-                  <a href="{{ repo.html_url }}" target="_blank">{{
-                    repo.name
-                  }}</a>
-                </h4>
+                <h4>{{ repo.name }}</h4>
                 <p>{{ repo.description }}</p>
+                <a
+                  href="{{ repo.html_url }}"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >View On Github</a
+                >
               </div>
               <div class="col-md-3">
                 <span class="badge badge-primary mr-1">
