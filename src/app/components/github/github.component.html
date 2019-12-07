@@ -23,7 +23,7 @@
               {{ user.following }} Following</span
             >
           </div>
-          <br>
+          <br />
           <ul class="list-group">
             <li class="list-group-item">
               <strong>Username:</strong>{{ user.login }}
@@ -44,6 +44,37 @@
         </div>
       </div>
       <a href="#" class="btn btn-primary">View On Github</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <p>{{ user.name }}'s Repos</p>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-12">
+          <div *ngFor="let repo of repos">
+            <div class="row">
+              <div class="col-md-9">
+                <h4>
+                  <a href="{{ repo.html_url }}" target="_blank">{{
+                    repo.name
+                  }}</a>
+                </h4>
+                <p>{{ repo.description }}</p>
+              </div>
+              <div class="col-md-3">
+                <span class="badge badge-primary mr-1">
+                  {{ repo.watchers }} Watchers</span
+                >
+                <span class="badge badge-secondary mr-1"
+                  >{{ repo.forks }} Forks</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
