@@ -6,9 +6,10 @@ import { AppComponent } from "./app.component";
 import { GithubComponent } from "./components/github/github.component";
 import { HttpClientModule } from "@angular/common/http";
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, GithubComponent, NavbarComponent],
+  declarations: [AppComponent, GithubComponent, NavbarComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]
