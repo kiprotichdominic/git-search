@@ -19,4 +19,7 @@ export class GithubService {
       "https://api.github.com/users/" + this.username + "/repos"
     );
   }
+  updateUsername(username: any) {
+    this.username = username;
+  }
 }
