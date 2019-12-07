@@ -1,6 +1,30 @@
-# GitSearch
+# Github Profile Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+## Author
+
+  Kiprotich Dominic Korir
+
+## Description
+
+This is a web application that enables users to search their github profiles by username. They can also view their repositories.
+
+## Technologies
+
+- HTML5
+- Css3
+- Typescript
+- Angular 8
+
+## Behavior Driven Development
+
+  1. Search Github profile.
+  2. View profile.
+  3. View repositories
+
+## Contact
+
+- Kiprotichkorir36@Gmail.com
+
 
 ## Development server
 
