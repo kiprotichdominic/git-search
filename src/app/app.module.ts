@@ -8,9 +8,10 @@ import { GithubComponent } from "./components/github/github.component";
 import { HttpClientModule } from "@angular/common/http";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { HomeComponent } from "./components/home/home.component";
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, GithubComponent, NavbarComponent, HomeComponent],
+  declarations: [AppComponent, GithubComponent, NavbarComponent, HomeComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
