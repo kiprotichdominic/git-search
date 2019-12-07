@@ -1,4 +1,4 @@
-<!-- <div class="row">
+<div class="row mt-2">
   <div class="col-md-12">
     <form>
       <div class="form-group">
@@ -15,7 +15,7 @@
 </div>
 
 <div *ngIf="user" class="mt-2">
-  <div class="card">
+  <div class="card shadow-hover shadow">
     <div class="card-header">
       <p>{{ user.name }}</p>
     </div>
@@ -59,9 +59,11 @@
           </ul>
         </div>
       </div>
-      <a href="#" class="btn btn-primary">View On Github</a>
+      <br>
+      <a href="{{user.html_url }}" class="btn btn-primary">View On Github</a>
     </div>
   </div>
+  <br>
   <div class="card">
     <div class="card-header">
       <p>{{ user.name }}'s Repos</p>
@@ -104,4 +106,4 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
