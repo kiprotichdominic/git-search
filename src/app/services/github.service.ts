@@ -14,4 +14,9 @@ export class GithubService {
   getUser() {
     return this.http.get("https://api.github.com/users/" + this.username);
   }
+  getRepos() {
+    return this.http.get(
+      "https://api.github.com/users/" + this.username + "/repos"
+    );
+  }
 }
