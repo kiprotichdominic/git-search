@@ -2,7 +2,7 @@
 
 ## Author
 
-  Kiprotich Dominic Korir
+Kiprotich Dominic Korir
 
 ## Description
 
@@ -17,14 +17,13 @@ This is a web application that enables users to search their github profiles by 
 
 ## Behavior Driven Development
 
-  1. Search Github profile.
-  2. View profile.
-  3. View repositories
+1. Search Github profile.
+2. View profile.
+3. View repositories
 
 ## Contact
 
 - Kiprotichkorir36@Gmail.com
-
 
 ## Development server
 
@@ -49,3 +48,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Licence
+
+- [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
