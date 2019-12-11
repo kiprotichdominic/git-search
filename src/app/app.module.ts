@@ -10,9 +10,10 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { HomeComponent } from "./components/home/home.component";
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { HightlightDirective } from './hightlight.directive';
 
 @NgModule({
-  declarations: [AppComponent, GithubComponent, NavbarComponent, HomeComponent, FooterComponent, LandingComponent],
+  declarations: [AppComponent, GithubComponent, NavbarComponent, HomeComponent, FooterComponent, LandingComponent, HightlightDirective],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]

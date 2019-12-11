@@ -1,8 +1,8 @@
 <app-navbar></app-navbar>
-<br>
+<br />
 <div class="container">
   <router-outlet></router-outlet>
-  <div class="card shadow-hover shadow">
+  <div class="card shadow-hover shadow" appHightlight>
     <div class="card-body">
       <div class="row">
         <div class="col-md-4">
@@ -38,7 +38,7 @@
               <strong>Blog:</strong>{{ user.blog }}
             </li>
             <li class="list-group-item">
-              <strong>Member Since</strong>{{ user.created_at }}
+              <strong>Member Since: </strong>{{ user.created_at | date }}
             </li>
           </ul>
         </div>
@@ -48,6 +48,6 @@
     </div>
   </div>
 </div>
-<br>
-<br>
+<br />
+<br />
 <app-footer></app-footer>

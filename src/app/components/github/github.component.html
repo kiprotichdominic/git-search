@@ -23,7 +23,6 @@
     </form>
   </div>
 </div>
-
 <div *ngIf="user" class="mt-2">
   <div class="card shadow-hover shadow">
     <div class="card-header">
@@ -64,7 +63,7 @@
               <strong>Blog:</strong>{{ user.blog }}
             </li>
             <li class="list-group-item">
-              <strong>Member Since</strong>{{ user.created_at }}
+              <strong>Member Since: </strong>{{ user.created_at | date }}
             </li>
           </ul>
         </div>
